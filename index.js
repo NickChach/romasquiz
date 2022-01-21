@@ -70,7 +70,7 @@ q5.addEventListener("submit", function (event) {
     } else if (points === 4) {
         finalScore.innerText = "Βλαχάκοου, συγκέντρωσες 4 πόντους. Λίγο ακόμη και θα γίνεις μη-πρωταγωνίστρια του μη-θεάτρου!";
     } else {
-        finalScore.innerText = "Συγχαρητήρια! Απάντησες σωστά σε όλες τις απαντήσεις! Χρίζεσαι επίκουρος καθηγητής βυζαντινολογίας! Get a life!";
+        finalScore.innerText = "Συγχαρητήρια! Απάντησες σωστά σε όλες τις ερωτήσεις! Χρίζεσαι επίκουρος καθηγητής βυζαντινολογίας! Get a life!";
     }
     question5.style.display = "none";
     intro.style.display = "none";
